@@ -1,0 +1,52 @@
+body {
+    background-color:rgb(237, 239, 238);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;   
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+ 
+header > img {
+   display : block;
+   margin-left: auto;
+   margin-right:auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(34, 17, 17);
+    padding: 2px;
+
+    
+}
+
+nav li {
+    display : inline-block;
+    flex:1;
+    padding:2px;
+    margin: 1,1,1,1;
+    text-decoration: none;
+
+
+}   
+
+main {
+    display : flex;
+    
+}
+main section {
+    flex:1;
+    
+}
+
+ footer {
+
+    display : flex;
+
+}
+
+footer div { 
+    flex : 1;
+}
